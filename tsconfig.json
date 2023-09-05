@@ -1,0 +1,81 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "target": "es2019",
+        "lib": [
+            "es2019"
+        ],
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "forceConsistentCasingInFileNames": true,
+        "moduleResolution": "node",
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "pretty": true,
+        "sourceMap": true,
+        "declaration": true,
+        "outDir": "dist",
+        "allowJs": true,
+        "noEmit": false,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "importHelpers": true,
+        "diagnostics": true,
+        "skipLibCheck": true,
+        "listEmittedFiles": true,
+        "maxNodeModuleJsDepth": 1,
+        "baseUrl": "app",
+        "paths": {
+            "@/*": [
+                "*"
+            ],
+            "@common/*": [
+                "common/*"
+            ],
+            "@config/*": [
+                "config/*"
+            ],
+            "@controllers/*": [
+                "controllers/*"
+            ],
+            "@factories/*": [
+                "factories/*"
+            ],
+            "@managers/*": [
+                "managers/*"
+            ],
+            "@middlewares/*": [
+                "middlewares/*"
+            ],
+            "@models/*": [
+                "models/*"
+            ],
+            "@routes/*": [
+                "routes/*"
+            ],
+            "@services/*": [
+                "services/*"
+            ],
+            "@statics/*": [
+                "statics/*"
+            ],
+            "@utils/*": [
+                "utils/*"
+            ]
+        }
+    },
+    "include": [
+        "app/**/*.ts",
+        "app/**/*.json",
+        ".env"
+    ],
+    "exclude": [
+        "./node_modules/*",
+        "./test/*",
+        "./azure-pipelines.yml"
+    ]
+}
