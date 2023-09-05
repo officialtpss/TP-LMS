@@ -55,7 +55,7 @@
         "md5": "^2.3.0",
         "moment": "^2.29.3",
         "moment-timezone": "^0.5.34",
-        "mongoose": "^6.5.0",
+        "mongoose": "^6.12.0",
         "morgan": "^1.10.0",
         "swagger-jsdoc": "^6.1.0",
         "swagger-model-validator": "^3.0.21",
